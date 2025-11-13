@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Define script names
-SCRIPTS=("one.sh" "two.sh" "three.sh")
+SCRIPTS=("two.sh" "three.sh" "one.sh")
 
 # Get today's day number (1–366)
 DAY_NUMBER=$(date +%j)
